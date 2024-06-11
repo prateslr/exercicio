@@ -1,6 +1,4 @@
 <?php
     //AQUI VAI SER NOSSA API
-    define('active', true);
-    define('version', '1.0.0');
-    
-?>
+    define('API_IS_ACTIVE', true);
+    define('API_VERSION', '1.0.0');
