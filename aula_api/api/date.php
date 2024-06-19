@@ -33,12 +33,12 @@
             'email' => 'mariarita@gmail.com'
         ],
         [
-            'nome' => 'Stephanie Mota',
-            'email' => 'stephaniemota@gmail.com'
+            'nome' => 'Stephanie ',
+            'email' => 'stephanie@gmail.com'
         ],
         [
-            'nome' => 'Daniel da Silva',
-            'email' => 'danielsilva@gmail.com'
+            'nome' => 'Daniel',
+            'email' => 'daniel@gmail.com'
         ]
       
     ];
