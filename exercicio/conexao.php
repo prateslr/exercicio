@@ -1,13 +1,13 @@
 <?php
-    $host = 'localhost';
-    $user = 'root';
+    $host = 'localhost';    
+    $usuario = 'root';
     $senha = '';
     $banco = 'etecmcm';
 
-    $conection = new mysqli ($host, $user, $senha, $banco); // Sempre nessa mesma Ordem!!!
+    $conexao = new mysqli($host,$usuario,$senha,$banco);  //! Sempre nesta ordem
 
-    if($conection->connect_error) {
-        die('Falha na conexão: ' . $conection->conennect_error);
-    } else {
-        echo 'Conectado com Sucesso! :)'; 
+    if($conexao->connect_error){
+        die('Falha de conexão: ' . $conexao->connect_error);
+    }else { 
+        echo "CONECTADO COM SUCESSO";
     }
