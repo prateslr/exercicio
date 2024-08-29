@@ -4,10 +4,11 @@
     $senha = '';
     $banco = 'etecmcm';
 
-    $conexao = new mysqli($host,$usuario,$senha,$banco);  //! Sempre nesta ordem
+    $conexao = new mysqli($host,$usuario,$senha,$banco);
 
     if($conexao->connect_error){
         die('Falha de conexão: ' . $conexao->connect_error);
-    }else { 
-        echo "CONECTADO COM SUCESSO";
     }
+    // else{
+    //     echo "CONECTADO COM SUCESSO";
+    // }
